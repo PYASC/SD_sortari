@@ -1,0 +1,4 @@
+Test 1
+Quick sort: 11 milliseconds	Merge sort: 1907 milliseconds	Bubble sort: 7 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: 15 milliseconds	Introsort: 309 milliseconds	
+Quick sort: 18 milliseconds	Merge sort: 3785 milliseconds	Bubble sort: 17 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: 36 milliseconds	Introsort: 703 milliseconds	
+Quick sort: 32 milliseconds	Merge sort: 7092 milliseconds	Bubble sort: 25 milliseconds	Radix_16 sort: 
