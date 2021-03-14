@@ -1,8 +1,9 @@
-4 1
-100000 1
-100000 100
-100     10000
-100000 10000
+5 4
+1000000 1
+1000000 100
+1000000 1000000
+100     1000000
+10000000 100000000
 
 
 // Primul test -> vector plin de 0 (deja sortat)
@@ -11,8 +12,10 @@
 
 // Testul 2-> multe duplicate; Quick sort scoate timp bun deaorece se numara aparitiile pivotului;
 
-// Tesul 3 -> putine numere, dar din interval larg; dezavantajos pt Radix Sort si Count sort
+// Testul 3-> Multe numere si interval larg -> Quick sort si Merge sort ar trebui sa scoata timpi mult mai buni decat Bubble sort.
+
+// Testul 4 -> putine numere, dar din interval larg; dezavantajos pt Radix Sort si Count sort
 // In plus, Quick sort si Merge sort s-ar putea sa aiba timpi comparabili cu Bubble sort;
 
-// Testul 4-> Multe numere si interval larg -> Quick sort si Merge sort ar trebui sa scoata timpi mult mai buni decat Bubble sort.
+
 

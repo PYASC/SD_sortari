@@ -170,7 +170,7 @@ void gen_nrs() {
     long long int i,x;
     // Genereaza N numere cu valori de pana la 2^30
     for(i=0; i<N; ++i) {
-        x = ( (rand()&32767) <<15 + (rand()&32767)) % NMax;
+        x = ( ((rand()&32767)<<15) + (rand()&32767)) % NMax;
         nrs.push_back(x);
         nrss.push_back(x);
     }
@@ -191,7 +191,7 @@ int main() {
     for(i=1; i<=T; ++i) {
         g<<"Test "<<i<<'\n';
         f>>N>>NMax;
-        if(N>1000000 || NMax > 1000000)
+        if(N>10000000 || NMax > 100000000)
             g<<"I have my limits\n";
         else {
             for(j=1; j<=nr_rep; ++j) {
@@ -214,7 +214,7 @@ int main() {
                 g << "Merge sort: " << duration.count() << " milliseconds" << '\t';
 
                 // bubble sort
-                if(N>=1000000 && NMax!=1)
+                if(N>=100000 && NMax!=1)
                     g<<"Bubble sort: Too many numbers; can't wait that long \t";
                 else {
                     for(k=0; k<nrss.size(); ++k)
@@ -245,7 +245,7 @@ int main() {
                 g << "Radix_8 sort: " << duration.count() << " milliseconds" << '\t';
 
                 //count sort
-                if(NMax>=1000000)
+                if(NMax>=100000)
                     g<<"Count sort: Don't have enough memory\t";
                 else {
                     for(k=0; k<nrss.size(); ++k)

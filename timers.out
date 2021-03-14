@@ -1,4 +1,25 @@
 Test 1
-Quick sort: 11 milliseconds	Merge sort: 1907 milliseconds	Bubble sort: 7 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: 15 milliseconds	Introsort: 309 milliseconds	
-Quick sort: 18 milliseconds	Merge sort: 3785 milliseconds	Bubble sort: 17 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: 36 milliseconds	Introsort: 703 milliseconds	
-Quick sort: 32 milliseconds	Merge sort: 7092 milliseconds	Bubble sort: 25 milliseconds	Radix_16 sort: 
+Quick sort: 11 milliseconds	Merge sort: 1966 milliseconds	Bubble sort: 7 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: 16 milliseconds	Introsort: 329 milliseconds	
+Quick sort: 9 milliseconds	Merge sort: 2507 milliseconds	Bubble sort: 8 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: 18 milliseconds	Introsort: 353 milliseconds	
+Quick sort: 10 milliseconds	Merge sort: 2162 milliseconds	Bubble sort: 10 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: 19 milliseconds	Introsort: 362 milliseconds	
+Quick sort: 11 milliseconds	Merge sort: 2160 milliseconds	Bubble sort: 8 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: 19 milliseconds	Introsort: 358 milliseconds	
+Test 2
+Quick sort: 362 milliseconds	Merge sort: 2287 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 135 milliseconds	Radix_8 sort: 225 milliseconds	Count sort: 31 milliseconds	Introsort: 458 milliseconds	
+Quick sort: 350 milliseconds	Merge sort: 2635 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 131 milliseconds	Radix_8 sort: 211 milliseconds	Count sort: 20 milliseconds	Introsort: 400 milliseconds	
+Quick sort: 422 milliseconds	Merge sort: 2285 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 132 milliseconds	Radix_8 sort: 193 milliseconds	Count sort: 19 milliseconds	Introsort: 386 milliseconds	
+Quick sort: 321 milliseconds	Merge sort: 2285 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 130 milliseconds	Radix_8 sort: 193 milliseconds	Count sort: 18 milliseconds	Introsort: 383 milliseconds	
+Test 3
+Quick sort: 2616 milliseconds	Merge sort: 2365 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 308 milliseconds	Radix_8 sort: 432 milliseconds	Count sort: Don't have enough memory	Introsort: 462 milliseconds	
+Quick sort: 2768 milliseconds	Merge sort: 2667 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 312 milliseconds	Radix_8 sort: 430 milliseconds	Count sort: Don't have enough memory	Introsort: 461 milliseconds	
+Quick sort: 2838 milliseconds	Merge sort: 2598 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 309 milliseconds	Radix_8 sort: 439 milliseconds	Count sort: Don't have enough memory	Introsort: 466 milliseconds	
+Quick sort: 2803 milliseconds	Merge sort: 2479 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 333 milliseconds	Radix_8 sort: 437 milliseconds	Count sort: Don't have enough memory	Introsort: 467 milliseconds	
+Test 4
+Quick sort: 0 milliseconds	Merge sort: 0 milliseconds	Bubble sort: 0 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: Don't have enough memory	Introsort: 0 milliseconds	
+Quick sort: 0 milliseconds	Merge sort: 0 milliseconds	Bubble sort: 1 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: Don't have enough memory	Introsort: 0 milliseconds	
+Quick sort: 0 milliseconds	Merge sort: 0 milliseconds	Bubble sort: 0 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: Don't have enough memory	Introsort: 0 milliseconds	
+Quick sort: 0 milliseconds	Merge sort: 0 milliseconds	Bubble sort: 0 milliseconds	Radix_16 sort: 0 milliseconds	Radix_8 sort: 0 milliseconds	Count sort: Don't have enough memory	Introsort: 0 milliseconds	
+Test 5
+Quick sort: 33178 milliseconds	Merge sort: 28909 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 4505 milliseconds	Radix_8 sort: 5692 milliseconds	Count sort: Don't have enough memory	Introsort: 5450 milliseconds	
+Quick sort: 30788 milliseconds	Merge sort: 28392 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 4092 milliseconds	Radix_8 sort: 5757 milliseconds	Count sort: Don't have enough memory	Introsort: 5206 milliseconds	
+Quick sort: 34097 milliseconds	Merge sort: 28528 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 4406 milliseconds	Radix_8 sort: 5566 milliseconds	Count sort: Don't have enough memory	Introsort: 5391 milliseconds	
+Quick sort: 33321 milliseconds	Merge sort: 27288 milliseconds	Bubble sort: Too many numbers; can't wait that long 	Radix_16 sort: 4370 milliseconds	Radix_8 sort: 5568 milliseconds	Count sort: Don't have enough memory	Introsort: 5412 milliseconds	
